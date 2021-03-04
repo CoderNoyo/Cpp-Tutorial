@@ -6,8 +6,8 @@ void cube(double NOs, double arr[])
   double product = 1, product2 = 1;
   // double arr[2];
   for(int i=0;i<3;i++){
-    product *= NOs;
-    product2 *= (NOs-3);
+    product *= 8;
+    product2 *= 5;
   }
   arr[0] = product;
   arr[1] = product2;
